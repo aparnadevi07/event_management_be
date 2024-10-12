@@ -1,1 +1,1 @@
-# event_management_be
+# event_management

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nextgen - Login</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome to Nextgen</h1>
+      <p>Your one-stop solution for event management</p>
+    </div>
+  </header>
+
+  <section id="login-section">
+    <div class="container">
+      <h2>Login to Your Account</h2>
+      <form id="login-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email ID:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <input type="submit" value="Sign In" id="signin-btn">
+        <input type="button" value="Sign Up" id="signup-btn" onclick="window.location.href='signup.html';">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Nextgen. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
